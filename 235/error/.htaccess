@@ -1,0 +1,2 @@
+ErrorDocument 404 /tjs6091/235/error/error.html
+DirectoryIndex noterror.html
