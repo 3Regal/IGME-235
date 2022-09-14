@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(29, 17, 38);
+    font-size:20px;
+    font-family:'Segoe UI', sans-serif
+}
+
+h1{
+    color:rgb(186, 219, 248);
+}
+
+.heading{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+main{
+    background-color: rgb(186, 219, 248);
+    color:rgb(29, 17, 38);
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+img{
+    float: right; 
+    margin: 20px; 
+    border: 20px solid rgb(186, 172, 255)
+}
+
+.content{
+    margin:20px;
+    padding:0px;
+}
+
+#about{
+    padding-top:1px
+}
+
+#links:after{
+    content: " "; 
+    display: block; 
+    clear: right;
+}
+
+a:link{color:rgb(195, 149, 244);}
+a:visited{color:rgb(136, 63, 230);}
+a:focus, a:hover{background-color:rgb(186, 172, 255);}
+a:active{color:rgb(164, 108, 239);}
