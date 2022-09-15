@@ -19,21 +19,21 @@ main{
     width: 800px;
     margin-left:auto;
     margin-right:auto; 
+    padding: 20px;
 }
 
 img{
     float: right; 
     margin: 20px; 
-    border: 20px solid rgb(186, 172, 255)
+    border: 20px solid rgb(186, 172, 255);
 }
 
 .content{
-    margin:20px;
-    padding:0px;
+    padding-left:20px
 }
 
 #about{
-    padding-top:1px
+    text-align: justify;
 }
 
 #links:after{
@@ -42,7 +42,7 @@ img{
     clear: right;
 }
 
-a:link{color:rgb(195, 149, 244);}
-a:visited{color:rgb(136, 63, 230);}
-a:focus, a:hover{background-color:rgb(186, 172, 255);}
-a:active{color:rgb(164, 108, 239);}
+a:link{color:rgb(214, 149, 244)}
+a:visited{color:rgb(136, 63, 230)}
+a:focus, a:hover{background-color:rgb(186, 172, 255)}
+a:active{color:rgb(164, 108, 239)}
